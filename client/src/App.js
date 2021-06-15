@@ -1,11 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import SearchBooks from "./pages/SearchBooks";
+import SavedBooks from "./pages/SavedBooks";
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
-    <div>
-      <p className="bg-success text-white ">Book Search</p>
-    </div>
+    <Router>
+       <div>
+
+
+       </div>
+    </Router>
   );
 }
 
