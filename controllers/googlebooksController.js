@@ -5,7 +5,7 @@ const axios =require('axios');
 
 module.exports = {
   bookSearch: function(req, res) {
-    
+    let bookTitle=req.query.bookTitle
 
     const booksresult = axios.get(`https://www.googleapis.com/books/v1/volumes?q=" + ${bookTitle}`)
     .then(resp => {
